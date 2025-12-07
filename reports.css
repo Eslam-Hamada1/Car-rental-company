@@ -1,0 +1,81 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    background: linear-gradient(to right, #7d0101, #1b0451);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+select, input {
+    border-radius: 2rem;
+    outline: none;
+    background-color: rgb(236, 236, 236);
+    height: 4rem;
+    width: 40rem;
+    padding: 0.5rem 2rem;
+    font-size: 2rem;
+}
+
+input {
+    height: 3rem;
+    width: 30rem;
+}
+
+h1, h2, p, a {
+    color: wheat;
+}
+
+button {
+    border: none;
+    border-radius: 1rem;
+    width: 14rem;
+    height: 4rem;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    border: 1px solid navajowhite;
+}
+
+table {
+    border-radius: 1rem;
+}
+
+table, th, td, tr {
+    border: 2px solid #c4dcf3;
+    border-collapse: collapse;
+    text-align: center;
+    color: wheat;
+}
+
+td, th {
+    padding: 0 1.2rem;
+    height: 8rem;
+    font-weight: bold;
+}
+
+th {
+    background-color: #360c04;
+}
+
+tr {
+    padding: 2rem 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}

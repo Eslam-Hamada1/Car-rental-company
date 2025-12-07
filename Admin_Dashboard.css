@@ -1,0 +1,45 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    background: linear-gradient(to right, #7d0101, #1b0451);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    background-color: blueviolet;
+    color: white;
+    padding: 1.5rem 1rem;
+    margin-top: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: green;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+

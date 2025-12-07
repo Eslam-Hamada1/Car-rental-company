@@ -1,0 +1,75 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #7d0101, #1b0451);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border-radius: 2rem;
+    outline: none;
+    background-color: rgb(236, 236, 236);
+    height: 3rem;
+    width: 30rem;
+    padding: 0.5rem 2rem;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+h1,p,a {
+    color: wheat;
+}
+
+button {
+    border: none;
+    border-radius: 1rem;
+    width: 14rem;
+    height: 4rem;
+    background-color: black;
+    color: white;
+    margin-top: 3rem;
+}
+
+.buttonbox {
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    border: 1px solid navajowhite;
+}
+
+.registerBox {
+    display: flex;
+    justify-content: center;
+}
+
+.pbox {
+    display: flex;
+    justify-content: center;
+}
+
+p, ol, li, h1, h2, h3, h4, h5 ,h6 {
+    cursor: default;
+    user-select: none;
+}
+
+.alone {
+    display: flex;
+    justify-content: center;
+}

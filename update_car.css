@@ -1,0 +1,85 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    background: linear-gradient(to right, #7d0101, #1b0451);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.GREATDIV1, .box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.GREATDIV2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.subdev1, .subdev2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.subdev1 {
+    border: 1px solid yellow;
+}
+
+.subdev2 {
+    margin-left: 5%;
+    border: 1px solid green;
+}
+
+
+input, select {
+    border-radius: 2rem;
+    outline: none;
+    background-color: rgb(236, 236, 236);
+    height: 3rem;
+    width: 30rem;
+    padding: 0.5rem 2rem;
+    font-size: 2rem;
+}
+
+select {
+    height: 4rem;
+    width: 34rem;
+}
+
+h1, h2, h3, p, a {
+    color: wheat;
+}
+
+button {
+    border: none;
+    border-radius: 1rem;
+    width: 14rem;
+    height: 4rem;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    border: 1px solid navajowhite;
+}
+
+.box {
+    margin-bottom: 5rem;
+}
+
+.box3 {
+    display: flex;
+    justify-content: center;
+}
